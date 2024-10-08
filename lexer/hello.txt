@@ -1,0 +1,13 @@
+#define MAX(a, b) \
+    ((a) > (b) ? (a) : (b))
+
+#define SQUARE(x) \
+    ((x) * (x))
+
+#define PRINT_HELLO \
+    printf("Hello, World!\n"); \
+    printf("This is a multi-line macro.\n");
+    
+int main() {
+    printf("Hello/*test*/");
+}
